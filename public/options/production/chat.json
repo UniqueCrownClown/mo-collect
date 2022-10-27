@@ -1,1 +1,41 @@
-[]
+[   { "msgs": ["之前的version-2写得不好"], "msgInputSpeed": 100 },
+    { "msgs": ["该计划整version-3了..."], "msgInputSpeed": 80 },
+    { "msgs": ["你现在在干嘛呢？"], "msgInputSpeed": 80 },
+    {
+        "msgs": ["知道我现在在想什么吗？"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["想我", "想女朋友"],
+                "rejectKeyTexts": ["不想"],
+                "rejectHitTexts": [
+                    "猜错了，给你个提示，是个人～",
+                    "你肯定是故意猜错的..."
+                ]
+            }
+        }
+    },
+    {
+        "msgs": ["我现在当然是在想打游戏", "我现在当然是在想你啦～"],
+        "msgInputSpeed": 80
+    },
+    { "msgs": ["什么你才不信？"], "msgInputSpeed": 100 },
+    { "msgs": ["喔还没收到任何礼物？"], "msgInputSpeed": 140 },
+    { "msgs": ["而且人也没到！（逐渐不开心😭）"], "msgInputSpeed": 180 },
+    { "msgs": ["别别别，别生气，我可是有所准备的。"], "msgInputSpeed": 80 },
+    { "msgs": ["礼物已经在路上了喔，人也会到的呢。"], "msgInputSpeed": 80 },
+    {
+        "msgs": ["而且还有很多想对你说的话，写成了一封信给你。"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["<letter src='options/preview/letter.json'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+    { "msgs": ["文采怎么样？是不是？"] },
+    { "msgs": ["<img src='options/preview/感动到哭.png'/>"] },
+    { "msgs": ["知道你铁石心肠了..."], "msgInputSpeed": 80 },
+    { "msgs": ["希望不大，最好version-4的女主角还是你"], "msgInputSpeed": 120 },
+    { "msgs": ["一直到version-n还是你..."], "msgInputSpeed": 80 }
+]
