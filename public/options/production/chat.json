@@ -1,51 +1,161 @@
 [
-  { "msgs": ["之前的version-2写得不好"], "msgInputSpeed": 100 },
-  { "msgs": ["该计划整version-3了..."], "msgInputSpeed": 80 },
-  { "msgs": ["你现在在干嘛呢？"], "msgInputSpeed": 80 },
   {
-    "msgs": ["知道我现在在想什么吗？"],
+    "msgs": [
+      "之前的version-2写得不好，英文太多"
+    ],
+    "msgInputSpeed": 100
+  },
+  {
+    "msgs": [
+      "所以version-3来了..."
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "你现在在干嘛呢？"
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "知道我现在在想什么吗？"
+    ],
     "msgInputSpeed": 80,
     "triggerNextAction": {
       "type": "userInput",
       "options": {
-        "resolveKeyTexts": ["想我", "想女朋友"],
-        "rejectKeyTexts": ["不知道"],
+        "resolveKeyTexts": [
+          "想我",
+          "想女朋友"
+        ],
+        "rejectKeyTexts": [
+          "不知道"
+        ],
         "rejectHitTexts": [
-          "你猜错了～",
-          "给你提示一下～", "是个人~",
-          "这都猜不中？？？",
-          "好吧，看图吧。", "<img src='options/production/imgs/pic1.jpg'>"
+          "给你提示一下,是个人～",
+          "这都猜不中？？？好吧，看图吧。"
         ]
       }
     }
   },
   {
-    "msgs": ["我现在当然是在想打游戏", "我现在当然是在想你啦～"],
-    "msgInputSpeed": 80
-  },
-  { "msgs": ["什么你才不信？"], "msgInputSpeed": 100 },
-  { "msgs": ["只会油腻和口花花！（逐渐不开心😭）"], "msgInputSpeed": 180 },
-  { "msgs": ["别别别，别生气，我可是有所准备的。"], "msgInputSpeed": 80 },
-  {
-    "msgs": ["有很多想对你说的话，写成了一封信给你。"],
+    "msgs": [
+      "<img src='options/production/imgs/pic1.jpg'>"
+    ],
     "msgInputSpeed": 80
   },
   {
-    "msgs": ["<letter src='options/production/letter.json'/>"],
-    "triggerNextAction": { "type": "componentClose" }
+    "msgs": [
+      "是她~"
+    ],
+    "msgInputSpeed": 80
   },
-  { "msgs": ["文采怎么样？是不是？"] },
   {
-    "msgs": ["<img src='options/preview/感动到哭.png'/>"],
+    "msgs": [
+      "<img src='options/production/imgs/pic2.jpg'>"
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "是她~~"
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "<img src='options/production/imgs/pic3.jpg'>"
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "是她~~~"
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "我现在当然是在想打游戏",
+      "我现在当然是在想你啦～"
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "什么你才不信？"
+    ],
+    "msgInputSpeed": 100
+  },
+  {
+    "msgs": [
+      "只会油腻和口花花！（逐渐不开心😭）"
+    ],
+    "msgInputSpeed": 180
+  },
+  {
+    "msgs": [
+      "别生气，我可是有所准备的。"
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "电子情书赶紧收一收。。。"
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "<letter src='options/production/letter.json'/>"
+    ],
+    "triggerNextAction": {
+      "type": "componentClose"
+    }
+  },
+  {
+    "msgs": [
+      "文采怎么样？是不是？"
+    ]
+  },
+  {
+    "msgs": [
+      "<img src='options/preview/感动到哭.png'/>"
+    ],
     "triggerNextAction": {
       "type": "userInput",
       "options": {
-        "resolveKeyTexts": ["对", "有", "有点"],
-        "rejectKeyTexts": ["没有"],
-        "rejectHitTexts": ["okok,知道你铁石心肠了..."]
+        "resolveKeyTexts": [
+          "对",
+          "有",
+          "有点"
+        ],
+        "rejectKeyTexts": [
+          "没有"
+        ],
+        "rejectHitTexts": [
+          "okok,知道你铁石心肠了。。。"
+        ]
       }
     }
   },
-  { "msgs": ["希望version-4的女主角还是你"], "msgInputSpeed": 120 },
-  { "msgs": ["一直到version-n也还是你..."], "msgInputSpeed": 80 }
+  {
+    "msgs": [
+      "我们能不能互相坦诚友好些？？"
+    ],
+    "msgInputSpeed": 80
+  },
+  {
+    "msgs": [
+      "希望version-4的女主角还是你"
+    ],
+    "msgInputSpeed": 100
+  },
+  {
+    "msgs": [
+      "一直一直到version-n也还是你。。。"
+    ],
+    "msgInputSpeed": 80
+  }
 ]
